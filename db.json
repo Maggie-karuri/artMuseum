@@ -1,0 +1,164 @@
+{"images":
+[
+    {
+        "id": 0,
+        "name": "Mona Lisa",
+        "artist": "Leonardo da Vinci",
+        "description": "The Mona Lisa is a half-length portrait painting by the Italian artist Leonardo da Vinci. It is considered one of the most famous and recognized works of art in the world.",
+        "year": 1503,
+        "url": "images/mona-lisa.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Starry Night",
+        "artist": "Vincent van Gogh",
+        "description": "Starry Night is an oil painting by Dutch post-impressionist painter Vincent van Gogh. The swirling clouds and bright stars make this painting one of Van Gogh's most famous works.",
+        "year": 1889,
+        "url": "images/starry_night.jpg"
+    },
+    {
+        "id": 2,
+        "name": "The Last Supper",
+        "artist": "Leonardo da Vinci",
+        "description": "The Last Supper is a late 15th-century mural painting by Leonardo da Vinci. It depicts the last supper of Jesus with his apostles, as told in the Gospel of John.",
+        "year": 1495,
+        "url": "images/last_supper.jpg"
+    },
+    {
+        "id": 3,
+        "name": "The Persistence of Memory",
+        "artist": "Salvador Dalí",
+        "description": "The Persistence of Memory is a 1931 painting by artist Salvador Dalí. It features melting clocks in a landscape setting and is one of the most famous surrealist paintings.",
+        "year": 1931,
+        "url": "images/persistence_of_memory.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Guernica",
+        "artist": "Pablo Picasso",
+        "description": "Guernica is a large oil painting on canvas by Pablo Picasso. It was created in response to the bombing of Guernica, a Basque Country village in northern Spain, by Nazi Germany and Fascist Italy during the Spanish Civil War.",
+        "year": 1937,
+        "url": "images/guernica.jpg"
+    },
+    {
+        "id": 5,
+        "name": "The Starry Night",
+        "artist": "Vincent van Gogh",
+        "description": "The Starry Night is an oil on canvas painting by Dutch post-impressionist painter Vincent van Gogh. It depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence.",
+        "year": 1889,
+        "url": "images/starry_night_rhone.jpg"
+    },
+    {
+        "id": 6,
+        "name": "The Birth of Venus",
+        "artist": "Sandro Botticelli",
+        "description": "The Birth of Venus is a painting by Italian artist Sandro Botticelli. It depicts the goddess Venus, emerging from the sea as a fully grown woman, arriving at the shore.",
+        "year": 1486,
+        "url": "images/birth_of_venus.jpg"
+    },
+    {
+        "id": 7,
+        "name": "The Scream",
+        "artist": "Edvard Munch",
+        "description": "The Scream is the popular name given to a composition created by Norwegian Expressionist artist Edvard Munch in 1893. The agonized face in the painting has become one of the most iconic images of art.",
+        "year": 1893,
+        "url": "images/the_scream.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Girl with a Pearl Earring",
+        "artist": "Johannes Vermeer",
+        "description": "Girl with a Pearl Earring is an oil painting by Dutch Golden Age painter Johannes Vermeer. It depicts a girl wearing an exotic dress, an oriental turban, and a large pearl earring.",
+        "year": 1665,
+        "url": "images/girl_with_a_pearl_earring.jpg"
+    },
+    {
+        "id": 9,
+        "name": "The Night Watch",
+        "artist": "Rembrandt",
+        "description": "The Night Watch is a painting by Dutch artist Rembrandt van Rijn. It is one of the most famous paintings in the world and is known for its colossal size and dramatic use of light and shadow.",
+        "year": 1642,
+        "url": "images/night_watch.jpg"
+    },
+    {
+        "id": 10,
+        "name": "The Thinker",
+        "artist": "Auguste Rodin",
+        "description": "The Thinker is a bronze sculpture by French artist Auguste Rodin. It depicts a man in sober meditation, battling with a powerful internal struggle.",
+        "year": 1889,
+        "url": "images/the_thinker.jpg"
+    },
+    {
+        "id": 11,
+        "name": "The Great Wave off Kanagawa",
+        "artist": "Katsushika Hokusai",
+        "description": "The Great Wave off Kanagawa, also known as The Great Wave or simply The Wave, is a woodblock print by the Japanese ukiyo-e artist Hokusai. It depicts an enormous wave threatening boats off the coast of the town of Kanagawa.",
+        "year": 1831,
+        "url": "images/great_wave.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Les Demoiselles d'Avignon",
+        "artist": "Pablo Picasso",
+        "description": "Les Demoiselles d'Avignon is a large oil painting created by Pablo Picasso in 1907. It is considered one of the most important works of modern art and a precursor to the Cubist movement.",
+        "year": 1907,
+        "url": "images/les_demoiselles_davignon.jpg"
+    },
+    {
+        "id": 13,
+        "name": "The Creation of Adam",
+        "artist": "Michelangelo",
+        "description": "The Creation of Adam is a fresco painting by Italian artist Michelangelo, which forms part of the Sistine Chapel's ceiling. It illustrates the Biblical creation narrative from the Book of Genesis.",
+        "year": 1512,
+        "url": "images/creation_of_adam.jpg"
+    },
+    {
+        "id": 14,
+        "name": "The Kiss",
+        "artist": "Gustav Klimt",
+        "description": "The Kiss is an oil painting, with added silver and gold leaf, by the Austrian Symbolist painter Gustav Klimt. It depicts a couple embracing each other, their bodies entwined in elaborate robes.",
+        "year": 1907,
+        "url": "images/the_kiss.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Water Lilies",
+        "artist": "Claude Monet",
+        "description": "Water Lilies is a series of approximately 250 oil paintings by French Impressionist Claude Monet. They depict his flower garden at his home in Giverny, and are some of his most famous works.",
+        "year": 1916,
+        "url": "images/water_lilies.jpg"
+    },
+    {
+        "id": 16,
+        "name": "The Garden of Earthly Delights",
+        "artist": "Hieronymus Bosch",
+        "description": "The Garden of Earthly Delights is a triptych painting by Dutch artist Hieronymus Bosch. It is a complex and dense work, featuring fantastical imagery of humans, animals, and objects.",
+        "year": 1490,
+        "url": "iimages/garden_of_earthly_delights.jpg"
+    },
+    {
+        "id": 17,
+        "name": "The Starry Night Over the Rhône",
+        "artist": "Vincent van Gogh",
+        "description": "The Starry Night Over the Rhône is an oil painting by Dutch artist Vincent van Gogh. It depicts the night sky over the Rhône River, with the lights of Arles in the distance.",
+        "year": 1888,
+        "url": "images/starry_night_rhone.jpg"
+    },
+    {
+        "id": 18,
+        "name": "American Gothic",
+        "artist": "Grant Wood",
+        "description": "American Gothic is a painting by Grant Wood in the collection of the Art Institute of Chicago. It depicts a farmer standing beside a woman in front of a house with Gothic-style windows.",
+        "year": 1930,
+        "url": "images/american_gothic.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Not (Misère) - Drawing",
+        "artist": "Käthe Kollwitz",
+        "description": "Not (Misère) - Drawing is a drawing by Käthe Kollwitz. It is a public domain image. Français : Plume et encre noire, lavis d'encre sur papier. 27 x 25,2 cm. Achat à Professeur Simmel en 1918",
+        "year": 1918,
+        "url": "images/not_misere_drawing.jpg"
+    }
+]
+}

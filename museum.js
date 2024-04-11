@@ -1,34 +1,37 @@
-// Function to toggle animation
-function toggleAnimation() {
-    var scrollText = document.getElementById("scroll-text");
-    scrollText.classList.toggle("stopped");
-}
-
-// Import Axios library
-const axios = require("axios");
-
-// Function to print open access results
-async function printOpenAccessResults(keyword, skip, limit) {
-    const url = "https://openaccess-api.clevelandart.org/api/artworks";
-    const params = {
-        q: keyword,
-        skip: skip,
-        limit: limit,
-        has_image: 1
-    };
-
-    try {
-        const resp = await axios.get(url, { params });
-        for (const artwork of resp.data.data) {
-            const tombstone = artwork.tombstone;
-            const image = artwork.images.web.url;
-            console.log(`${tombstone}\n${image}\n---`);
-        }
-    } catch (error) {
-        console.log("ERROR getting artwork data");
-        console.log(error);
-    }
-}
-
-// Call the function to print open access results
-printOpenAccessResults("monet", 0, 10);
+const init = () => {
+    const inputForm = document.querySelector("form");
+  
+    inputForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const input = document.querySelector("input#searchByID");
+  
+      // Fetch data from the JSON file
+      fetch("artworks.json") // Assuming artworks.json is in the same directory
+        .then((response) => response.json())
+        .then((data) => {
+          // Find the artwork with the given ID
+          const artwork = data.find((artwork) => artwork.id === parseInt(input.value));
+  
+          if (artwork) {
+            // Display the artwork details
+            const title = document.querySelector("section#artworkDetails h4");
+            const artist = document.querySelector("section#artworkDetails p.artist");
+            const description = document.querySelector("section#artworkDetails p.description");
+  
+            title.innerText = artwork.name;
+            artist.innerText = `Artist: ${artwork.artist}`;
+            description.innerText = `Description: ${artwork.description}`;
+          } else {
+            // Handle the case where artwork is not found
+            alert("Artwork not found!");
+          }
+        })
+        .catch((error) => {
+          // Handle errors if any
+          console.error("Error fetching artwork data:", error);
+        });
+    });
+  };
+  
+  document.addEventListener("DOMContentLoaded", init);
+  

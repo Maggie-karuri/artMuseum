@@ -10,21 +10,40 @@
     <h2>Art Museum</h2>
     <section class="header">
         <nav>
+            <a href="museum.html"><img src="./images/museum_logo.png" class="logo"></a>
             <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+                <a href="#" id="home-link" onclick="loadContent('home')">Home</a>
+                <a href="#" id="about-link" onclick="loadContent('about')">About</a>
+                <a href="#" id="events-link" onclick="loadContent('events')">Events</a>
+                <a href="#" id="search-link" onclick="loadContent('search')">Search</a>
             </div>
         </nav>
+        <div class="container">
+            <p>Welcome, art lovers, to our digital art haven! Get ready to explore a world of creativity and beauty right from your screen. Our online museum is filled with incredible artwork from across time and cultures, each piece telling its own unique story. From stunning paintings to captivating sculptures, there's something here for everyone to enjoy. So, get comfortable and prepare to be amazed! And remember, while beauty is subjective, there's something magical about how art can capture our imaginations and make us smile – it's like a little miracle painted on a canvas!</p>
+        </div>
+        <label for="datepicker">Select a date:</label>
+        <input type="date" id="datepicker" name="datepicker">
+        <div id="artworks"></div>
+        <button id="toggle-animation-button">Toggle Animation</button>
     </section>
-    <div class="background"></div>
-    <div id="artworks"></div>
+    <h1>Artwork Search</h1>
+    <form id="searchForm">
+      <label for="searchByID">Search by ID:</label>
+      <input type="number" id="searchByID" name="searchByID" required>
+      <button type="submit">Search</button>
+    </form>
+    <section id="artworkDetails">
+      <h2>Artwork Details</h2>
+      <h4>Title:</h4>
+      <p class="artist">Artist:</p>
+      <p class="description">Description:</p>
+    </section>
+     
     <footer>
         <div id="scroll-container" onclick="toggleAnimation()">
             <div id="scroll-text"><p>Welcome to our online art museum where we bring art, history and knowledge to you!</p></div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./museum.js"></script>
 </body>
 </html>
