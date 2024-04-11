@@ -115,4 +115,4 @@ document.addEventListener("DOMContentLoaded", function() {
         const scrollContainer = document.getElementById("scroll-container");
         scrollContainer.classList.toggle("animate");
     }
-});
+    });

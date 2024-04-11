@@ -28,10 +28,7 @@ nav {
     position: relative;
     overflow: hidden;
 }
-    *, *::before, *::after{
-        -webkit-box-sizing:padding-box;
-        box-sizing:padding-box;
-}
+
 #scroll-text {
     height: 80px;
     position: absolute;
@@ -80,8 +77,9 @@ footer {
         height: 75px;
     }
     .container {
-        max-width: 750px;
-        margin: 0;
+        max-width:80%;
+        margin-left: 20px;
+        margin-top: 50px;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 20px;
         border: 2px solid;
@@ -92,5 +90,65 @@ footer {
     .container p {
         font-style: italic;
     }
-
+    #toggleButton, #searchForm {
+        display: inline-block;
+        vertical-align: middle;
+    }
     
+    #toggleButton {
+        margin-right: 10px;
+        margin: 50px;
+        background-color: peru;
+        border: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        }
+    
+    #searchForm input[type="text"] {
+        width: 200px;
+        padding: 10px;
+        margin: 50px; 
+
+    }
+    
+    #searchForm button {
+        padding: 15px 30px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    #searchForm button:hover {
+        background-color: #0056b3;
+    }
+    
+    #showEventPicker {
+        background-color: #0056b3;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 50px;
+        font-weight: bold;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      
+      #eventPicker {
+        display: none;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-top: 10px;
+      }
+      
+      
