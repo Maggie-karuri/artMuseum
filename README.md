@@ -37,6 +37,6 @@ To run the Art Museum project locally, follow these steps:
 3. Start the json-server to access db.json data:
     ``` json-server --watch db.json```
 
-###Improvements Needed
+## Improvements Needed
 Access to more data when: 'home', 'events', 'about, and 'search' are clicked.
 
