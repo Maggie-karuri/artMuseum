@@ -12,15 +12,49 @@
         <nav>
             <a href="index.html"><img src="./images/museum_logo.png" class="logo"></a>
             <div class="nav-links">
-                <a href="#" id="home-link" onclick="loadContent('home')">Home</a>
-                <a href="#" id="about-link" onclick="loadContent('about')">About</a>
-                <a href="#" id="events-link" onclick="loadContent('events')">Events</a>
-                <a href="#" id="search-link" onclick="loadContent('search')">Search</a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <input type="text" class="eventSearch" placeholder="Search Events..." style="float:right;">
+                    <li style="float:right"><a class="eventSearch" href="#event">Event</a></li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="float:right">Events List</button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdownMenu"></div>
+                        
+                    </div>
+
+                     
+                  </ul>
             </div>
         </nav>
        <div class="container">
-            <p>Welcome, art lovers, to our digital art haven! Get ready to explore a world of creativity and beauty right from your screen. Our online museum is filled with incredible artwork from across time and cultures, each piece telling its own unique story. From stunning paintings to captivating sculptures, there's something here for everyone to enjoy. So, get comfortable and prepare to be amazed! And remember, while beauty is subjective, there's something magical about how art can capture our imaginations and make us smile – it's like a little miracle painted on a canvas!</p>
-        </div>
+        <p>Welcome, art lovers, to our digital art haven! Get ready to explore a world of creativity and beauty right from your screen. Our online museum is filled with incredible artwork from across time and cultures, each piece telling its own unique story. From stunning paintings to captivating sculptures, there's something here for everyone to enjoy. So, get comfortable and prepare to be amazed! And remember, while beauty is subjective, there's something magical about how art can capture our imaginations and make us smile – it's like a little miracle painted on a canvas!</p>
+       
+    </div>
+    <div class="art">
+        <div><img src="images/american_gothic.jpg" alt="American Gothic"><p>American Gothic</p></div>
+        <div><img src="images/birth_of_venus.jpg" alt="Birth of Venus"><p>Birth of Venus</p></div>
+        <div><img src="images/creation_of_adam.jpg" alt="Creation of Adam"><p>Creation of Adam</p></div>
+        <div><img src="images/garden_of_earthly_delights.jpg" alt="Garden of Earthly Delights"><p>Garden of Earthly Delights</p></div>
+        <div><img src="images/girl_with_a_pearl_earring.jpg" alt="Girl with a Pearl Earring"><p>Girl with a Pearl Earring</p></div>
+        <div><img src="images/great_wave.jpg" alt="Great Wave"><p>Great Wave</p></div>
+        <div><img src="images/guernica.jpg" alt="Guernica"><p>Guernica</p></div>
+        <div><img src="images/last_supper.jpg" alt="Last Supper"><p>Last Supper</p></div>
+        <div><img src="images/les_demoiselles_davignon.jpg" alt="Les Demoiselles Davignon"><p>Les Demoiselles Davignon</p></div>
+        <div><img src="images/mona-lisa.jpg" alt="Mona Lisa"><p>Mona Lisa"</p></div>
+        <div><img src="images/night_watch.jpg" alt="Night Watch"><p>Night Watch</p></div>
+        <div><img src="images/not_misere_drawing.jpg" alt="Not Misere"><p>Not Misere</p></div>
+        <div><img src="images/persistence_of_memory.jpg" alt="Persistence of Memory"><p>Persistence of Memory</p></div>
+        <div><img src="images/starry_night.jpg" alt="Starry Night"><p>Starry Night"</p></div>
+        <div><img src="images/starry_night_rhone.jpg" alt="Starry Night Rhone"><p>Starry Night Rhone</p></div>
+        <div><img src="images/the_kiss.jpg" alt="The Kiss"><p>The Kiss</p></div>
+        <div><img src="images/the_scream.jpg" alt="The Scream"><p>The Scream</p></div>
+        <div><img src="images/the_thinker.jpg" alt="The Thinker"><p>The Thinker</p></div>
+        <div><img src="images/water_lilies.jpg" alt="Water Lilies"><p>Water Lilies</p></div>
+    </div>
+
         <div id="artworks"></div>
         <button id="toggleButton">Toggle Animation</button>
 
@@ -30,8 +64,7 @@
             <button type="submit">Search</button>
         </form>
         <div id="searchResults"></div>
-        <button id="showEventPicker">Events</button>
-        <div id="eventPicker"></div>
+        
 
     <footer>
         <div id="scroll-container" onclick="toggleAnimation()">

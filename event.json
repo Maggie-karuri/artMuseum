@@ -1,0 +1,29 @@
+{
+    "event"
+    [
+    {
+      "name": "Art Exhibition 2024",
+      "date": "2024-05-10",
+      "location": "Gallery XYZ",
+      "description": "Join us for a showcase of contemporary art pieces from around the world."
+    },
+    {
+      "name": "Sculpture Workshop",
+      "date": "2024-06-15",
+      "location": "Art Studio ABC",
+      "description": "Learn the art of sculpture from professional artists. Suitable for beginners and experienced sculptors."
+    },
+    {
+      "name": "Artist Talk: Abstract Art",
+      "date": "2024-07-20",
+      "location": "Community Center",
+      "description": "Join us for a discussion on abstract art and its significance in contemporary art movements."
+    },
+    {
+      "name": "Photography Exhibition",
+      "date": "2024-08-30",
+      "location": "City Museum",
+      "description": "Explore captivating photographs captured by talented photographers from various genres."
+    }
+  ]
+}  

@@ -115,4 +115,33 @@ document.addEventListener("DOMContentLoaded", function() {
         const scrollContainer = document.getElementById("scroll-container");
         scrollContainer.classList.toggle("animate");
     }
+    const dropdownMenu = document.getElementById("dropdownMenu");
+    const dropdownButton = document.getElementById("dropdownMenuButton");
+    dropdownButton.addEventListener("click", function() {
+        console.log("Button clicked");
+        // Call fetchEvents to fetch and display events when the button is clicked
+        fetchEvents();
     });
+
+    // Function to fetch events from the server
+    function fetchEvents() {
+        fetch("http://localhost:3000/events")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (!data || !Array.isArray(data.events)) {
+                    throw new Error("Invalid data format or missing 'events' property");
+                }
+                // Display events
+                displayEvents(data.events);
+            })
+            .catch(error => {
+                console.error("Error fetching events:", error);
+            });
+    }
+            });
+    
