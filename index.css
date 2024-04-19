@@ -25,7 +25,7 @@ nav {
     border: 7px;
     height: 100px;
     width: 100%;
-    position: relative;
+    position: fixed;
     overflow: hidden;
 }
 
@@ -53,18 +53,25 @@ nav {
 .header{
     min-height: 100vh;
     width: 100%;
-    background: rgba(4,9,30,0.7);
+    background: peru;
     z-index: 1;
     position: relative;
 
 }
+.searchInput {
+    background-color: palevioletred;
+    padding: 20px;
+}
 .content {
     padding: 20px;
+<<<<<<< HEAD
     color: white;
+=======
+>>>>>>> artBranch
     position: relative;
 }
 footer {
-    position: fixed;
+    position:relative;
     bottom: 0;
     width: 100%;
     font-size: larger;
@@ -81,7 +88,7 @@ footer {
         max-height: 60%;
         margin-left: 20px;
         margin-top: 50px;
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: peru;
         padding: 20px;
         border: 2px solid;
         border-radius: 6px;
@@ -91,35 +98,56 @@ footer {
     }
     .container p {
         font-style: italic;
+       
     }
+    .art {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .art img {
+        width:200px; 
+        height: 200px;
+        object-fit: cover;
+        margin: 20px;
+        flex: 0 0 auto;
+    }
+    .art p {
+        margin-left: 10px;
+    }
+
     #toggleButton, #searchForm {
+        display: flex;
+        justify-content: flex-end; 
         display: inline-block;
-        vertical-align: middle;
+        
     }
     
     #toggleButton {
-        margin-right: 10px;
-        margin: 50px;
-        background-color: peru;
+        background-color: palevioletred;
         border: black;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+        display: flex;
+        justify-content: flex-end; 
+        margin: 50px;
         }
     
     #searchForm input[type="text"] {
         width: 200px;
         padding: 10px;
         margin: 50px; 
+        background-color: palevioletred;
+        
 
     }
     
     #searchForm button {
         padding: 15px 30px;
-        background-color: #007bff;
-        color: #fff;
+        background-color: palevioletred;
+        color: black;
         border: none;
         border-radius: 8px;
         cursor: pointer;
@@ -127,11 +155,11 @@ footer {
     }
     
     #searchForm button:hover {
-        background-color: #0056b3;
+        background-color: palevioletred;
     }
     
     #showEventPicker {
-        background-color: #0056b3;
+        background-color: palevioletred;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -146,11 +174,42 @@ footer {
         right: 0;
       }
       
-      #eventPicker {
-        display: none;
-        border: 1px solid #ccc;
-        padding: 10px;
-        margin-top: 10px;
+      .dropdown-container {
+        position: relative;
+        float: right;
+    }
+
+    .artEvent{
+        position: relative;
+    }
+    li {
+        border-right: grey;
+        display: inline;
+        font-weight: bolder;
+        font-size: large;
+    }
+           
+    li:last-child {
+        border-right: none;
+        padding-right: 100px;
+
       }
-      
-      
+      .artwork img {
+        width:300px; 
+        height: 300px;
+        object-fit: cover;
+        margin: 20px;
+    }
+    .artwork img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 60px;
+        }
+        .eventSearch,
+.dropdown {
+    float: right;
+}
+.dropdown {
+    margin-right: 10px;
+}

@@ -160,5 +160,36 @@
         "year": 1918,
         "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbwOXCDk31_MUDH8BbVEcawx12UujNHsuK4HdSobrOTSjo-dxidReA8ifS0EpHlFlXxSY&usqp=CAU"
     }
-]
+],
+
+"events": [
+    {
+      "id": 1,
+      "name": "Art Exhibition: Impressionism and Beyond",
+      "description": "Explore the world of impressionism and its influence on modern art in this comprehensive exhibition.",
+      "date": "2024-05-10",
+      "location": "Metropolitan Museum of Art"
+    },
+    {
+      "id": 2,
+      "name": "Sculpture Workshop: Introduction to Sculpting",
+      "description": "Join us for a hands-on workshop where you'll learn the basics of sculpting from experienced artists.",
+      "date": "2024-06-15",
+      "location": "Art Studio XYZ"
+    },
+    {
+      "id": 3,
+      "name": "Artist Talk: Modern Art Movements",
+      "description": "Join our panel of experts for a discussion on the various movements in modern art and their impact on contemporary culture.",
+      "date": "2024-07-20",
+      "location": "Contemporary Art Museum"
+    },
+    {
+      "id": 4,
+      "name": "Photography Exhibition: Capturing the Essence of Nature",
+      "description": "Experience the beauty of nature through the lens of talented photographers in this stunning exhibition.",
+      "date": "2024-08-30",
+      "location": "National Gallery of Photography"
+    }
+  ]
 }
